@@ -1,0 +1,5 @@
+<odoo>
+    <menuitem id="menu_subwise_root" name="SubWise" sequence="10" web_icon="subwise,static/description/icon.png"/>
+    <menuitem id="menu_subwise_dashboard" name="Dashboard" parent="menu_subwise_root"
+              action="action_subwise_dashboard" sequence="1"/>
+</odoo>
